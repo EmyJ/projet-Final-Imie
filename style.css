@@ -1,0 +1,140 @@
+/**
+ * Place your custom styles here.
+ */
+body {
+	margin:0;
+	padding:0;
+	background: url(/Sante_Connect/sites/default/files/pictures/fontDEcran/images.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.front h1 { 
+	display:none; 
+}
+.view-diapo, .view-content {
+	margin: 0px 0px 10px 0px;
+}
+.region-sidebar-first {
+	background: #FFF;
+	height: 430px;
+}
+.nav {
+	list-style: none;
+    margin: 0;
+}
+.nav li {
+	display: table-cell;
+}
+.list-inline {
+	display: none;
+}
+.view-accueil .views-row{
+	background-color: #FFF;
+	margin: 25px;
+	padding: 15px;
+	width: 500px;
+	float: left;
+	display: flex;
+    flex-direction: column;
+}
+.form-item {
+	margin:15px auto;
+	width:530px;
+}
+.webform-submit {
+	background-color: #337ab7;
+	color: white;
+	margin:15px 0px 0px 300px;
+	width:190px;
+}
+.views-field-name{
+	margin: 20px 0px 20px 0px;
+}
+.views-field-created{
+	margin: 20px 0px 20px 0px;
+}
+.views-field-nothing{
+	margin: 20px 0px 20px 0px;
+}
+.views-field-nothing-1{
+	margin: 20px 0px 20px 0px;
+}
+.container .navbar{
+	border-radius: none;
+	width: 100%;
+}
+#edit-author--2 {
+	display: none;
+}
+.navbar {
+	width: 100%;
+	background: #FFF;
+	border-radius: 0px;
+	border:none;
+}
+.navbar-brand {
+	margin-top: 4%;
+	font-weight: bold; 
+	font-size: xx-large;
+}
+.navbar-collapse {
+	margin-top: 1%;
+}
+.form-type-checkbox {
+	display: flex;
+}
+.help-block {
+	margin: 0px 0 10px;
+}
+#edit-actions {
+	text-align: center;
+}
+.form-item-mail,
+.form-item-homepage {
+	display: none;
+}
+.table > tbody > tr > td{
+	padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    width: 40px;
+}
+caption {
+	font-weight: bold;
+	text-align: center;
+	font-size: x-large;
+	color: black;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.new, .permalink {
+	display: none;
+}
+.field-type-text-long {
+	margin-left: 40px;
+}
+.comment-by-anonymous {
+	background : white;
+	border-radius: 10px ;
+	padding-bottom: 10px;
+	border: 2px solid black;
+	margin: 10px 0px 10px 0px;
+}
+.submitted {
+	margin-left: 10px;
+	text-decoration:underline;
+}
+.mj-w-btn {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: right;
+}
+.footer {
+	width: 100%; 
+	background: black; 
+	color:white;
+}
+.piedpage {
+	margin-left: 100px;
+}
